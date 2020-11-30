@@ -1,8 +1,11 @@
 {
   "name": "@codinggorilla/storybook-theme-changer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Storybook addon to change the emotion theme",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rm -rf ./dist",
     "build": "tsc"
@@ -12,9 +15,12 @@
     "url": "git+https://github.com/TheCodingGorilla/storybook-theme-changer.git"
   },
   "keywords": [
-    "Storybook"
+    "Storybook",
+    "Emotion",
+    "Addon",
+    "Theme"
   ],
-  "author": "The Coding Gorilla",
+  "author": "The Coding Gorilla (http://codinggorilla.co.uk/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheCodingGorilla/storybook-theme-changer/issues"
