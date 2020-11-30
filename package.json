@@ -1,6 +1,6 @@
 {
   "name": "@codinggorilla/storybook-theme-changer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Storybook addon to change the emotion theme",
   "main": "dist/index.js",
   "files": [

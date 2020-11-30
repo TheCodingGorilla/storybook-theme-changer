@@ -6,10 +6,10 @@ A Storybook react addon to change the theme used by an Emotion theme provider.
 
 ```typescript
 // main.ts
-import '@codinggorilla/storybook-theme-changer/register';
+import '@codinggorilla/storybook-theme-changer/dist/register';
 
 export default {
-    addons: ['@codinggorilla/storybook-theme-changer']
+    addons: ['@codinggorilla/storybook-theme-changer/dist']
 }
 ```
 
