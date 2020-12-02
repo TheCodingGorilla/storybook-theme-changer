@@ -47,6 +47,7 @@ function ThemeChangerPanel({ channel }: { channel: Channel }) {
             setThemes(themes);
             updateGlobals({ [GLOBAL_VARIABLE]: defaultThemeName });
         });
+        return () => channel.removeAllListeners("setThemes");
     }, []);
 
     useEffect(() => {
