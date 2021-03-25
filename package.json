@@ -18,7 +18,10 @@
     "Storybook",
     "Emotion",
     "Addon",
-    "Theme"
+    "Theme",
+    "storybook-addon",
+    "emotion",
+    "theme"
   ],
   "author": "The Coding Gorilla (http://codinggorilla.co.uk/)",
   "license": "MIT",
